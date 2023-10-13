@@ -103,6 +103,7 @@ def display_raw_data(df):
     while True:
         raw_data_display = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
         if raw_data_display == 'yes':
+             # Display 5 rows of raw data starting from start_idx and ending at end_idx
             print(df.iloc[start_idx:end_idx])
             start_idx += 5
             end_idx += 5
