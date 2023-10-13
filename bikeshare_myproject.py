@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#Dictionary to map city names to data files
 CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
@@ -27,7 +28,7 @@ def get_filters():
         else:
             print("Invalid input. Please choose a valid city.")
 
-    # Get user input for month or day
+    # Get user input for time filter (month or day or none)
     while True:
         time_filter = input("Would you like to filter the data by month, day, or not at all? ").lower()
         if time_filter in ['month', 'day', 'not at all']:
@@ -82,6 +83,7 @@ def load_data(city, month, day):
 
     # Filter by month if applicable
     if month != 'all':
+         # Convert month name to month number and filter DataFrame by that number
         month_num = ['january', 'february', 'march', 'april', 'may', 'june'].index(month) + 1
         df = df[df['Month'] == month_num]
 
@@ -101,6 +103,7 @@ def display_raw_data(df):
     while True:
         raw_data_display = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
         if raw_data_display == 'yes':
+             # Display 5 rows of raw data starting from start_idx and ending at end_idx
             print(df.iloc[start_idx:end_idx])
             start_idx += 5
             end_idx += 5
