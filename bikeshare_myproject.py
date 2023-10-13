@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#Dictionary to map city names to data files
 CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
@@ -27,7 +28,7 @@ def get_filters():
         else:
             print("Invalid input. Please choose a valid city.")
 
-    # Get user input for month or day
+    # Get user input for time filter (month or day or none)
     while True:
         time_filter = input("Would you like to filter the data by month, day, or not at all? ").lower()
         if time_filter in ['month', 'day', 'not at all']:
