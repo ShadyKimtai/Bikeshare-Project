@@ -1,3 +1,41 @@
+# Analysis of the Bikeshare data
+
+Welcome to the Bikeshare Data Analysis project! This Python script allows you to explore bikeshare data from three major US cities: Chicago, New York City, and Washington.
+You can analyze and visualize various statistics and insights to better understand bikeshare trends.
+
+## Introduction
+
+This Python project is designed to help you analyze bikeshare data from three major US cities.
+By running this script, you can gain valuable insights into bike usage patterns, popular stations, trip durations, and user demographics. Whether you're a data enthusiast, a student, or a professional, this project provides an interactive and educational way to explore real-world data.
+
+## Getting Started
+
+To get started, follow these steps:
+
+### Prerequisites
+
+You need to have Python and the following libraries installed:
+
+- pandas
+- numpy
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/ShadyKimtai/Bikeshare-Project/blob/documentation/bikeshare_myproject.py
+Change to the project directory:
+
+cd bikeshare-analysis
+Run the script:
+
+python bikeshare.py
+The project is ready for you to explore the exciting world of bikeshare data!
+
+
+
+
 import time
 import pandas as pd
 import numpy as np
