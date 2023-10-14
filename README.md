@@ -8,6 +8,11 @@ You can analyze and visualize various statistics and insights to better understa
 This Python project is designed to help you analyze bikeshare data from three major US cities.
 By running this script, you can gain valuable insights into bike usage patterns, popular stations, trip durations, and user demographics. Whether you're a data enthusiast, a student, or a professional, this project provides an interactive and educational way to explore real-world data.
 
+Explore the data to answer questions like:
+- What are the peak hours for bikeshare usage?
+- Which stations are the most popular for starting and ending trips?
+- How does trip duration vary between different user types?
+
 ## Getting Started
 
 To get started, follow these steps:
