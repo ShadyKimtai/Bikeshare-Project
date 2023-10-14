@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+import time
 
 #Dictionary to map city names to data files
 CITY_DATA = {
