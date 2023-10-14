@@ -13,6 +13,8 @@ Explore the data to answer questions like:
 - Which stations are the most popular for starting and ending trips?
 - How does trip duration vary between different user types?
 
+By following the steps in this README, you'll have the opportunity to analyze, visualize, and interact with the data to find answers to these questions and more.
+
 ## Getting Started
 
 To get started, follow these steps:
