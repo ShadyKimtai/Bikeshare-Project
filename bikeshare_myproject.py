@@ -117,7 +117,7 @@ def main():
 
         display_raw_data(df)
 
-        time_stats(df)
+        time_stats(df) # Calculate and display time-related statistics
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
