@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+import time # Import the time module for timing-related operations
 
 #Dictionary to map city names to data files
 CITY_DATA = {
@@ -117,7 +118,7 @@ def main():
 
         display_raw_data(df)
 
-        time_stats(df) # Calculate and display time-related statistics
+        time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
